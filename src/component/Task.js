@@ -6,6 +6,7 @@ export const Task = ({task, onDelete, onToggle}) => {
         <h3>{task.text} <FaTimes style ={{color:'red', cursor:'pointer'}}/>
         </h3>
         <p>{task.day}</p>
+        
     </div>
   )
 }
